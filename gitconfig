@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+[user]
+	name = Paul Rose
+	email = paul.rose@bytemark.co.uk
+[alias]
+  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	testa = log
+[color]
+	ui = true
