@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#
+# php_compromises
+# Searches for possible comprimised PHP files by looking for shady eval and 
+# base64_decode items.
+
+
+
+find $(pwd) -type f -name \*.php -exec grep -l 'eval(base64_decode' {} \;
