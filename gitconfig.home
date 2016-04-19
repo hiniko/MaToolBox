@@ -1,8 +1,8 @@
 [core]
 	editor = vim
 [user]
-	name = Paul Rose
-	email = mail@paulrose.me
+	name = sherman Rose
+	email = sherman@shermanrose.uk
 [alias]
   hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	testa = log
