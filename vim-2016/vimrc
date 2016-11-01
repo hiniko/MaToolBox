@@ -1,0 +1,38 @@
+" List of vim plugins
+call plug#begin('~/.vim/plugged')
+
+" Filesystem 
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+
+" Buffer tools
+Plug 'vim-scripts/YankRing.vim'
+Plug 'tpope/vim-sleuth'
+
+" Beauty tools
+Plug 'bling/vim-airline'
+Plug 'nathanaelkane/vim-indent-guides'
+
+" Syntax checking
+Plug 'scrooloose/syntastic'
+
+" CoffeeScript support
+Plug 'kchmck/vim-coffee-script'
+
+" Git tools
+Plug 'tpope/vim-fugitive'
+
+" Colour Schemes
+Plug 'tomasr/molokai'
+
+call plug#end()
+
+" Change color scheme
+colorscheme molokai
+
+" Airline Settings
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+set laststatus=2
+
+
