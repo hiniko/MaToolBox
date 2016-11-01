@@ -2,9 +2,8 @@
 	editor = vim
 [user]
 	name = Sherman Rose
-	email = sherman@bytemark.co.uk
+	email = sherman@managebac.com 
 [alias]
-  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	testa = log
+  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative testa = log
 [color]
 	ui = true
