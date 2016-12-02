@@ -1,0 +1,15 @@
+session_name: nurse-dev
+start_directory: ~/repos/doctor-test-suite/
+windows:
+- window_name: editor
+  layout: main-horizontal
+  focus: true
+  options:
+        main-pane-height: 50
+  panes:
+    - shell_command:
+        - vim 
+      focus: true
+    - shell_command:
+      - irb
+    - pane
