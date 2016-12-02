@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/prose/managed/clients/gitolite-admin/keydir'
 let g:netrw_dirhist_2='/home/prose/managed/clients/gitolite-admin/conf'
 let g:netrw_dirhist_3='/home/prose/managed/clients/gitolite-admin/keydir'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/prose/projects/dashboards/ansible'
 let g:netrw_dirhist_5='/home/prose/projects/dashboards'
 let g:netrw_dirhist_6='/home/sherman/projects/bmdash/client'
 let g:netrw_dirhist_7='/home/sherman/projects/bmdash/features/step_definitions'
+let g:netrw_dirhist_8='/Users/sherman/repos/elastic-submission/vendor/assets/javascripts'

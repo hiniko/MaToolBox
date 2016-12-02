@@ -25,6 +25,12 @@ Plug 'tpope/vim-fugitive'
 " Colour Schemes
 Plug 'tomasr/molokai'
 
+" Comment plugin
+Plug 'scrooloose/nerdcommenter'
+
+" Undo tree
+Plug 'sjl/gundo.vim'
+
 call plug#end()
 
 " Change color scheme
@@ -35,4 +41,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 set laststatus=2
 
+" Set tabs
+set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
+autocmd VimEnter * IndentGuidesEnable
